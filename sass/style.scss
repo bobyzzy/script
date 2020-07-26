@@ -1,0 +1,50 @@
+//Шрифты
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Montserrat:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@700&family=Raleway:wght@400;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=PT+Sans:ital,wght@0,400;0,700;1,400;1,700&display=swap");
+//ОБНУЛЕНИЕ
+
+@import url(null.css);
+
+// @import url(bootstrap.css);
+
+//переменные для блока
+$minwidth: 320px;
+$maxw: 880;
+$md: $maxw + 12;
+$md2: 992.98;
+$md3: 767.98;
+$md4: 479.98;
+
+//переменные цвета
+
+$btn-color: #fcb303;
+$icon-color: #46b814;
+$text-color: #1a182d;
+
+//переменные шрифта
+
+$kaushan: "Kaushan Script", cursive;
+$monserat: "Montserrat", sans-serif;
+$raleway: "Raleway", sans-serif;
+$opensans: "Open Sans", sans-serif;
+$bebas: "Bebas Neue", cursive;
+$pt: "PT Sans", sans-serif;
+//Импортированные материалы
+
+//Базовые значения
+
+.container {
+   max-width: 1000px;
+   margin: 0 auto;
+}
+
+
+.wrapper{
+   background: url(../img/background/bg.png)center no-repeat;
+   background-size: cover;
+   height: auto;
+}
+/*  ------------------------------------------------------------ */
